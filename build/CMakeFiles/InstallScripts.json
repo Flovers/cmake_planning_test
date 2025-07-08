@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Code/cmake_planning_test/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
