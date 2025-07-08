@@ -2,9 +2,11 @@
 
 #include "pnc_map.h"
 
-class Process {
+class Process
+{
 public:
-    void planProcess();       
+    void planProcess();
+
 public:
     PNC_Map my_map;
 };

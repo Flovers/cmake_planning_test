@@ -1,20 +1,20 @@
 [
 {
   "directory": "C:/Code/cmake_planning_test/build",
-  "command": "C:\\Users\\18266\\AppData\\Local\\Programs\\MICROS~1\\mingw64\\bin\\G__~1.EXE   -g -std=gnu++11 -o CMakeFiles\\planning_main.dir\\planning_main.cpp.obj -c C:\\Code\\cmake_planning_test\\planning_main.cpp",
+  "command": "C:\\Users\\18266\\AppData\\Local\\Programs\\MICROS~1\\mingw64\\bin\\G__~1.EXE -Dcommon_EXPORTS @CMakeFiles/common.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\common.dir\\src\\pnc_map.cpp.obj -c C:\\Code\\cmake_planning_test\\src\\pnc_map.cpp",
+  "file": "C:/Code/cmake_planning_test/src/pnc_map.cpp",
+  "output": "CMakeFiles/common.dir/src/pnc_map.cpp.obj"
+},
+{
+  "directory": "C:/Code/cmake_planning_test/build",
+  "command": "C:\\Users\\18266\\AppData\\Local\\Programs\\MICROS~1\\mingw64\\bin\\G__~1.EXE -Dcommon_EXPORTS @CMakeFiles/common.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\common.dir\\src\\process.cpp.obj -c C:\\Code\\cmake_planning_test\\src\\process.cpp",
+  "file": "C:/Code/cmake_planning_test/src/process.cpp",
+  "output": "CMakeFiles/common.dir/src/process.cpp.obj"
+},
+{
+  "directory": "C:/Code/cmake_planning_test/build",
+  "command": "C:\\Users\\18266\\AppData\\Local\\Programs\\MICROS~1\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/planning_main.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\planning_main.dir\\planning_main.cpp.obj -c C:\\Code\\cmake_planning_test\\planning_main.cpp",
   "file": "C:/Code/cmake_planning_test/planning_main.cpp",
   "output": "CMakeFiles/planning_main.dir/planning_main.cpp.obj"
-},
-{
-  "directory": "C:/Code/cmake_planning_test/build",
-  "command": "C:\\Users\\18266\\AppData\\Local\\Programs\\MICROS~1\\mingw64\\bin\\G__~1.EXE   -g -std=gnu++11 -o CMakeFiles\\planning_main.dir\\pnc_map.cpp.obj -c C:\\Code\\cmake_planning_test\\pnc_map.cpp",
-  "file": "C:/Code/cmake_planning_test/pnc_map.cpp",
-  "output": "CMakeFiles/planning_main.dir/pnc_map.cpp.obj"
-},
-{
-  "directory": "C:/Code/cmake_planning_test/build",
-  "command": "C:\\Users\\18266\\AppData\\Local\\Programs\\MICROS~1\\mingw64\\bin\\G__~1.EXE   -g -std=gnu++11 -o CMakeFiles\\planning_main.dir\\process.cpp.obj -c C:\\Code\\cmake_planning_test\\process.cpp",
-  "file": "C:/Code/cmake_planning_test/process.cpp",
-  "output": "CMakeFiles/planning_main.dir/process.cpp.obj"
 }
 ]

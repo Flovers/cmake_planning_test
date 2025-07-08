@@ -72,6 +72,7 @@ CMakeFiles/planning_main.dir/codegen:
 .PHONY : CMakeFiles/planning_main.dir/codegen
 
 CMakeFiles/planning_main.dir/planning_main.cpp.obj: CMakeFiles/planning_main.dir/flags.make
+CMakeFiles/planning_main.dir/planning_main.cpp.obj: CMakeFiles/planning_main.dir/includes_CXX.rsp
 CMakeFiles/planning_main.dir/planning_main.cpp.obj: C:/Code/cmake_planning_test/planning_main.cpp
 CMakeFiles/planning_main.dir/planning_main.cpp.obj: CMakeFiles/planning_main.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Code\cmake_planning_test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/planning_main.dir/planning_main.cpp.obj"
@@ -85,51 +86,20 @@ CMakeFiles/planning_main.dir/planning_main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/planning_main.dir/planning_main.cpp.s"
 	C:\Users\18266\AppData\Local\Programs\MICROS~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Code\cmake_planning_test\planning_main.cpp -o CMakeFiles\planning_main.dir\planning_main.cpp.s
 
-CMakeFiles/planning_main.dir/pnc_map.cpp.obj: CMakeFiles/planning_main.dir/flags.make
-CMakeFiles/planning_main.dir/pnc_map.cpp.obj: C:/Code/cmake_planning_test/pnc_map.cpp
-CMakeFiles/planning_main.dir/pnc_map.cpp.obj: CMakeFiles/planning_main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Code\cmake_planning_test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/planning_main.dir/pnc_map.cpp.obj"
-	C:\Users\18266\AppData\Local\Programs\MICROS~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/planning_main.dir/pnc_map.cpp.obj -MF CMakeFiles\planning_main.dir\pnc_map.cpp.obj.d -o CMakeFiles\planning_main.dir\pnc_map.cpp.obj -c C:\Code\cmake_planning_test\pnc_map.cpp
-
-CMakeFiles/planning_main.dir/pnc_map.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/planning_main.dir/pnc_map.cpp.i"
-	C:\Users\18266\AppData\Local\Programs\MICROS~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Code\cmake_planning_test\pnc_map.cpp > CMakeFiles\planning_main.dir\pnc_map.cpp.i
-
-CMakeFiles/planning_main.dir/pnc_map.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/planning_main.dir/pnc_map.cpp.s"
-	C:\Users\18266\AppData\Local\Programs\MICROS~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Code\cmake_planning_test\pnc_map.cpp -o CMakeFiles\planning_main.dir\pnc_map.cpp.s
-
-CMakeFiles/planning_main.dir/process.cpp.obj: CMakeFiles/planning_main.dir/flags.make
-CMakeFiles/planning_main.dir/process.cpp.obj: C:/Code/cmake_planning_test/process.cpp
-CMakeFiles/planning_main.dir/process.cpp.obj: CMakeFiles/planning_main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Code\cmake_planning_test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/planning_main.dir/process.cpp.obj"
-	C:\Users\18266\AppData\Local\Programs\MICROS~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/planning_main.dir/process.cpp.obj -MF CMakeFiles\planning_main.dir\process.cpp.obj.d -o CMakeFiles\planning_main.dir\process.cpp.obj -c C:\Code\cmake_planning_test\process.cpp
-
-CMakeFiles/planning_main.dir/process.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/planning_main.dir/process.cpp.i"
-	C:\Users\18266\AppData\Local\Programs\MICROS~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Code\cmake_planning_test\process.cpp > CMakeFiles\planning_main.dir\process.cpp.i
-
-CMakeFiles/planning_main.dir/process.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/planning_main.dir/process.cpp.s"
-	C:\Users\18266\AppData\Local\Programs\MICROS~1\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Code\cmake_planning_test\process.cpp -o CMakeFiles\planning_main.dir\process.cpp.s
-
 # Object files for target planning_main
 planning_main_OBJECTS = \
-"CMakeFiles/planning_main.dir/planning_main.cpp.obj" \
-"CMakeFiles/planning_main.dir/pnc_map.cpp.obj" \
-"CMakeFiles/planning_main.dir/process.cpp.obj"
+"CMakeFiles/planning_main.dir/planning_main.cpp.obj"
 
 # External object files for target planning_main
 planning_main_EXTERNAL_OBJECTS =
 
 C:/Code/cmake_planning_test/bin/planning_main.exe: CMakeFiles/planning_main.dir/planning_main.cpp.obj
-C:/Code/cmake_planning_test/bin/planning_main.exe: CMakeFiles/planning_main.dir/pnc_map.cpp.obj
-C:/Code/cmake_planning_test/bin/planning_main.exe: CMakeFiles/planning_main.dir/process.cpp.obj
 C:/Code/cmake_planning_test/bin/planning_main.exe: CMakeFiles/planning_main.dir/build.make
+C:/Code/cmake_planning_test/bin/planning_main.exe: libcommon.dll.a
 C:/Code/cmake_planning_test/bin/planning_main.exe: CMakeFiles/planning_main.dir/linkLibs.rsp
 C:/Code/cmake_planning_test/bin/planning_main.exe: CMakeFiles/planning_main.dir/objects1.rsp
 C:/Code/cmake_planning_test/bin/planning_main.exe: CMakeFiles/planning_main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Code\cmake_planning_test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable C:\Code\cmake_planning_test\bin\planning_main.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Code\cmake_planning_test\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable C:\Code\cmake_planning_test\bin\planning_main.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\planning_main.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
